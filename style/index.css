@@ -78,3 +78,55 @@ font-weight: 600px;
 
 
 }
+
+/* banner-section */
+
+.banner-section{
+    padding-top: 7.5rem;
+    padding-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.banner-content{
+width: 640px;
+
+
+}
+
+.banner-content h1{
+    
+
+font-size: 3.5rem;
+text-align: left;
+
+}
+.text-orange{
+    color: #FEA301;
+    display: block;
+}
+
+.text-SkyBlue{
+   color: #01ACFD; 
+}
+
+.banner-content p{
+color: var(--Black, rgba(17, 17, 17, 1));
+font-family: Quicksand;
+font-style: Regular;
+font-size: 1.25rem;
+text-align: left;
+margin: 1rem 0rem 1rem 0rem;
+}
+
+.Enroll{
+font-style: Bold;
+font-size: 1.25rem;
+border: none;
+padding: 0.50rem 1.30rem;
+color: #FFFFFF;
+border-radius: 12px;
+background: var(--Black, rgba(17, 17, 17, 1));
+}
