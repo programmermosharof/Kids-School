@@ -12,7 +12,7 @@
 .main
 {
     width:1440px ;
-    margin: 0px auto;
+    margin: 0rem auto;
     
 }
 
@@ -82,6 +82,7 @@ font-weight: 600px;
 /* banner-section */
 
 .banner-section{
+    
     padding-top: 7.5rem;
     padding-bottom: 0rem;
     display: flex;
@@ -130,3 +131,111 @@ color: #FFFFFF;
 border-radius: 12px;
 background: var(--Black, rgba(17, 17, 17, 1));
 }
+
+/* Standard Curriculum */
+.curriculum{
+    padding-top: 5rem;
+    background-image: url(../assets/bg.png);
+}
+.section-title{
+color: rgba(0, 0, 0, 1);
+font-size: 2.875rem; /* 46px */
+font-weight: 700;
+text-align: center;
+}
+.curriculum-cards{
+    
+    display: grid;
+    grid-template-columns:repeat( 3, 1fr);
+   padding-top:  5rem ;
+    padding-bottom:5rem ;
+}
+.curriculum-card{
+padding-top: 4rem;
+gap: 24px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 367.8px;
+height: 476.78px;
+box-sizing: border-box;
+border: 0.94px solid rgba(255, 244, 220, 1);
+border-radius: 18.86px;
+
+}
+.card-a{
+border: 0.94px solid rgba(222, 245, 255, 1);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgba(222, 245, 255, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+}
+.card-b{
+border: 0.94px solid rgba(255, 244, 220, 1);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgba(255, 244, 220, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+}
+.card-c{
+border: 0.94px solid rgba(242, 232, 255, 1);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgba(238, 225, 255, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+
+}
+.card-title{
+    color: rgba(32, 32, 32, 1);
+font-size: 1.70rem ;
+font-weight: 700;
+text-align: center;
+}
+.card-description{
+color: rgba(128, 128, 128, 1);
+font-size: 0.91rem;
+font-weight: 500;
+text-align: center;
+}
+
+.card-link-a{
+    text-decoration: none;
+    color: #64C8FF;
+
+}
+
+.card-link-b{
+
+    text-decoration: none;
+    color: #F0AA00;
+    
+}
+
+.card-link-c{
+
+    text-decoration: none;
+    color: #8700FF;
+    
+}
+
+.curriculum-nav{
+    margin-bottom:5rem;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-btn{
+    padding: 0.70rem;
+    border-radius: 50%;
+    color: #e9e7e7;
+    background-color: #F0AA00;
+    border: none;
+
+}
+
+
+
+
+
+
