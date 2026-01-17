@@ -320,16 +320,11 @@ text-align: center;
   position: relative;
 }
 
-.story{
-/* Article */
-width: 290.69px;
-height: 301.61px;
 
-}
 
 .story-title{
   padding: 1.75rem 1.5rem 2rem;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: #000;
   line-height: 1.4;
@@ -345,7 +340,7 @@ height: 301.61px;
     color: rgba(255, 255, 255, 1);
     font-size: 1.25rem;
     font-weight: 700;
-    padding: 0.70rem 1rem ;
+    padding: 0.70rem 2rem ;
     border-radius: 12px;
     background: var(--Black, rgba(17, 17, 17, 1));
     border: none;
