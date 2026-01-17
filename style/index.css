@@ -9,14 +9,17 @@
   box-sizing: border-box;
 }
 .container,
-.main
-{
-    width:1440px ;
-    margin: 0rem auto;
-    
+.main {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
 }
 
 /* navbar  */
+.navbar-ph{
+  display: none;
+}
 
 .navbar{
     display: flex;
@@ -144,9 +147,8 @@ font-weight: 700;
 text-align: center;
 }
 .curriculum-cards{
-    
-    display: grid;
-    grid-template-columns:repeat( 3, 1fr);
+    display: flex;
+    justify-content: space-between;
    padding-top:  5rem ;
     padding-bottom:5rem ;
 }
@@ -427,4 +429,137 @@ margin-bottom: 1rem;
 .social-icons{
     gap: 5px;
 }
+/* ===============================
+   FINAL MOBILE RESPONSIVE (<=576px)
+   =============================== */
 
+@media (max-width: 576px) {
+
+  /* ---------- Global ---------- */
+  body {
+    overflow-x: hidden;
+  }
+
+
+  /* ---------- Navbar ---------- */
+  .navbar {
+    display: none;
+  }
+.nav-divider{
+  width: 100%;
+   border-bottom: 1px solid #d10606;
+}
+  .navbar-ph {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+   
+  }
+
+  .navbar-ph img {    height: 40px;
+  }
+
+  .navbar-ph i {
+    font-size: 1.5rem;
+  }
+
+  /* ---------- Banner ---------- */
+  .banner-section {
+    flex-direction:  column-reverse;
+    text-align: center;
+    padding-top: 3rem;
+    gap: 2rem;
+  }
+
+  .banner-content {
+    width: 100%;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .banner-content p {
+    font-size: 1rem;
+  }
+
+  .banner-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ---------- Curriculum ---------- */
+  .curriculum-cards {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .curriculum-card {
+    width: 100%;
+    height: auto;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .curriculum-nav {
+    display: none;
+  }
+
+  /* ---------- Stories ---------- */
+  .stories-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .story-featured {
+   display: none;
+  }
+
+  .story-featured .story-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .story-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+.story-image img{
+  width: 100%;
+}
+  .story {
+    width: 100%;
+    
+  }
+
+  .story-title {
+    font-size: 1rem;
+  }
+
+  .stories-action {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  /* ---------- Footer ---------- */
+  .footer-layout {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .footer-brand {
+    width: 100%;
+  }
+
+  .brand span {
+    font-size: 2rem;
+  }
+
+  .footer-brand p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
