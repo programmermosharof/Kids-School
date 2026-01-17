@@ -246,8 +246,7 @@ text-align: center;
 /* ===== Layout ===== */
 
 .stories-layout{
-  display: grid;
-  grid-template-columns: 2fr 3fr;
+  display: flex;
   gap: 2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -429,9 +428,7 @@ margin-bottom: 1rem;
 .social-icons{
     gap: 5px;
 }
-/* ===============================
-   FINAL MOBILE RESPONSIVE (<=576px)
-   =============================== */
+/*MOBILE RESPONSIVE (<=576px) */
 
 @media (max-width: 576px) {
 
